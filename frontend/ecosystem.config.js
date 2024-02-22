@@ -17,8 +17,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REPOSITORY,
       path: DEPLOY_PATH,
-      "post-deploy":
-        "cd frontend && pwd && /home/lipatov/.nvm/versions/node/v16.20.2/bin/npm ci && /home/lipatov/.nvm/versions/node/v16.20.2/bin/npm run build",
+      "post-deploy": "cd frontend && pwd && npm ci && npm run build",
     },
   },
 };
