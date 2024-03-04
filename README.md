@@ -4,3 +4,4 @@
 
 фронт: lipatov.nomoredomainswork.ru
 бэкенд: api.lipatov.nomoredomainswork.ru
+IP адрес сервера: 158.160.141.230
